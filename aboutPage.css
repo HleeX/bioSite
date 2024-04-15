@@ -1,0 +1,66 @@
+#header {
+	background-color: #345f58;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 100px; 
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+    width: 50%;
+    margin-bottom: 20px; 
+}
+
+.card-title {
+	text-align: center; 
+   	font-size: 2em; 
+    	color: #333; 
+    	font-weight: 400; 
+}
+.card-content {
+   	padding: 2px 16px; 
+}
+
+.card:hover {
+   	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); 
+}
+footer {
+    background-color: #345f58; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+    color: white; 
+    font-weight: 400; 
+    font-style: italic; 
+}
+
+footer p {
+    	color: white; 
+    	font-weight: 400; 
+    	float: right; 
+   	padding-right: 10px; 
+    	font-style: italic; 
+}
+
+footer a {
+    	text-decoration: none; 
+    	color: white; 
+}
+
+footer a:hover {
+    	text-decoration: underline; 
+}

@@ -1,0 +1,42 @@
+.image-gallery {
+    	display: grid;
+    	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    	grid-gap: 10px; 
+	margin-top: 10%;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.image-item {
+	border: 1px solid #233132;
+}
+
+figure {
+	text-align: center;
+}
+
+figure img {
+	width: 380px;
+	height: 550px;
+}
+
+
+h1 {
+	text-align: center;
+	color: #233132;
+}
+
+h3 {
+	text-align: center;
+	color: #233132;
+}
+
+#bottom {
+	text-align: right;
+	margin-top: 10%;
+}
+body {
+	font-family:'Raleway', sans-serif;
+}
